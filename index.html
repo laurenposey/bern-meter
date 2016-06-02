@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bern-O-Meter</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1 class="text-center">Are you <span class="text-danger">feeling the bern?</span></h1>
+      <form id="bernmeter">
+        <div>
+          <label>College education for all</label>
+          <select class="form-control" id="edu">
+            <option value="1">Agree</option>
+            <option value="0">Disagree</option>
+
+          </select>
+
+          <label>Black lives matter</label>
+          <select class="form-control" id="lives">
+            <option value="1">Agree</option>
+            <option value="0">Disagree</option>
+
+          </select>
+
+          <label>$15/hour minimum wage</label>
+          <select class="form-control" id="wage">
+            <option value="1">Agree</option>
+            <option value="0">Disagree</option>
+
+          </select>
+        </div>
+        <button id="submit" class="btn btn-success">Submit</button>
+      </form>
+
+      <div id="result">
+
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
